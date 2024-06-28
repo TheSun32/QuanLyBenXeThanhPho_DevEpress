@@ -19,7 +19,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class YeuCau : XPObject
     {
         string fIdYeuCau;
-        [DevExpress.Xpo.DisplayName(@"Id yêu Cầu")]
+        [DevExpress.Xpo.DisplayName(@"Id Yêu Cầu")]
         public string IdYeuCau
         {
             get { return fIdYeuCau; }

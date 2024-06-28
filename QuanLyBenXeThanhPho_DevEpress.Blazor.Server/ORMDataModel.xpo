@@ -106,7 +106,7 @@
       <xpObject Id="78772ece-40a0-479d-89e2-a479f5e11e53" name="YeuCau" baseClass="XPObject" userFileName="YeuCau" designerFileName="YeuCau.Designer" className="YeuCau" virtualName="YeuCau">
         <fields>
           <generalXpObjectHasFields Id="402c5455-3a75-4dc2-b303-279c14a03821">
-            <field Id="cbdffc35-f480-42af-a801-4cb98dfb0300" name="IdYeuCau" displayName="Id yêu Cầu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="cbdffc35-f480-42af-a801-4cb98dfb0300" name="IdYeuCau" displayName="Id Yêu Cầu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="1ceec78b-01fb-498b-b084-0734cb7a5a21">
             <field Id="7975a5e2-5fb4-4273-98ae-42162fc96be9" name="NoiDung" virtualColumnType="String" delayedUpdateModifiedOnly="false" />

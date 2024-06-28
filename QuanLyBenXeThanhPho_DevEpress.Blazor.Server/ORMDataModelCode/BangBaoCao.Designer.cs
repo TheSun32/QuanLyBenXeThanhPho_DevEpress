@@ -19,18 +19,21 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class BangBaoCao : XPObject
     {
         string fIdBaoCao;
+        [DevExpress.Xpo.DisplayName(@"Id Báo Cáo")]
         public string IdBaoCao
         {
             get { return fIdBaoCao; }
             set { SetPropertyValue<string>(nameof(IdBaoCao), ref fIdBaoCao, value); }
         }
         string fDoanhThu;
+        [DevExpress.Xpo.DisplayName(@"Doanh Thu")]
         public string DoanhThu
         {
             get { return fDoanhThu; }
             set { SetPropertyValue<string>(nameof(DoanhThu), ref fDoanhThu, value); }
         }
         string fGhiChu;
+        [DevExpress.Xpo.DisplayName(@"Ghi Chú")]
         public string GhiChu
         {
             get { return fGhiChu; }
@@ -38,6 +41,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
         }
         NhanVienSoatVe fIdNhanVien;
         [Association(@"BangBaoCaoReferencesNhanVienSoatVe")]
+        [DevExpress.Xpo.DisplayName(@"Id Nhân Viên")]
         public NhanVienSoatVe IdNhanVien
         {
             get { return fIdNhanVien; }

@@ -19,43 +19,50 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class LichSuRaVao : XPObject
     {
         string fIdLichSu;
+        [DevExpress.Xpo.DisplayName(@"Id Lịch Sử")]
         public string IdLichSu
         {
             get { return fIdLichSu; }
             set { SetPropertyValue<string>(nameof(IdLichSu), ref fIdLichSu, value); }
         }
-        string fThoiGianVao;
-        public string ThoiGianVao
+        DateTime fThoiGianVao;
+        [DevExpress.Xpo.DisplayName(@"Thời Gian Vào")]
+        public DateTime ThoiGianVao
         {
             get { return fThoiGianVao; }
-            set { SetPropertyValue<string>(nameof(ThoiGianVao), ref fThoiGianVao, value); }
+            set { SetPropertyValue<DateTime>(nameof(ThoiGianVao), ref fThoiGianVao, value); }
         }
-        string fThoiGianRa;
-        public string ThoiGianRa
+        DateTime fThoiGianRa;
+        [DevExpress.Xpo.DisplayName(@"Thời Gian Ra")]
+        public DateTime ThoiGianRa
         {
             get { return fThoiGianRa; }
-            set { SetPropertyValue<string>(nameof(ThoiGianRa), ref fThoiGianRa, value); }
+            set { SetPropertyValue<DateTime>(nameof(ThoiGianRa), ref fThoiGianRa, value); }
         }
         string fBienSo;
+        [DevExpress.Xpo.DisplayName(@"Biển Số")]
         public string BienSo
         {
             get { return fBienSo; }
             set { SetPropertyValue<string>(nameof(BienSo), ref fBienSo, value); }
         }
         string fLoaiXe;
+        [DevExpress.Xpo.DisplayName(@"Loại Xe")]
         public string LoaiXe
         {
             get { return fLoaiXe; }
             set { SetPropertyValue<string>(nameof(LoaiXe), ref fLoaiXe, value); }
         }
-        string fGiaTien;
-        public string GiaTien
+        long fGiaTien;
+        [DevExpress.Xpo.DisplayName(@"Giá Tiền")]
+        public long GiaTien
         {
             get { return fGiaTien; }
-            set { SetPropertyValue<string>(nameof(GiaTien), ref fGiaTien, value); }
+            set { SetPropertyValue<long>(nameof(GiaTien), ref fGiaTien, value); }
         }
         XeCoDinh fIdXe;
         [Association(@"LichSuRaVaoReferencesXeCoDinh")]
+        [DevExpress.Xpo.DisplayName(@"Id Xe")]
         public XeCoDinh IdXe
         {
             get { return fIdXe; }
@@ -63,6 +70,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
         }
         NhanVienSoatVe fIdNhanVien;
         [Association(@"LichSuRaVaoReferencesNhanVienSoatVe")]
+        [DevExpress.Xpo.DisplayName(@"Id Nhân Viên")]
         public NhanVienSoatVe IdNhanVien
         {
             get { return fIdNhanVien; }

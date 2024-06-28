@@ -1,9 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <Options UIType="TabbedMDI"
-         RestoreTabbedMdiLayout="False"
-         ShowTabImage="True">
-  </Options>
   <NavigationItems NavigationStyle="Accordion">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Admin_ListView" ImageName="BO_User" />
+          <Item Id="BangBaoCao_ListView" Caption="Bảng Báo Cáo" ImageName="BO_Report" />
+          <Item Id="BangLichTrinh_ListView" Caption="Bảng Lịch Trình" ImageName="BO_Note" />
+          <Item Id="LichSuRaVao_ListView" Caption="Lịch Sử Ra Vào" ImageName="BO_List" />
+          <Item Id="NhanVienSoatVe_ListView" Caption="Nhân Viên Soát Vé" ImageName="BO_Position" />
+          <Item Id="NhaXe_ListView" Caption="Nhà Xe" ImageName="BO_Customer" />
+          <Item Id="TaiXe_ListView" Caption="Tài Xế" ImageName="BO_Employee" />
+          <Item Id="XeCoDinh_ListView" Caption="Xe Cố Định" ImageName="BO_Vendor" />
+          <Item Id="YeuCau_ListView" Caption="Yêu Cầu" ImageName="Action_AboutInfo" />
+        </Items>
+      </Item>
+    </Items>
   </NavigationItems>
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerBlazorModule" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="24.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="24.1.3.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>

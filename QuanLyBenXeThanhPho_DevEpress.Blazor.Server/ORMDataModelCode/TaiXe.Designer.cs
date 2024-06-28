@@ -19,67 +19,78 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class TaiXe : XPObject
     {
         string fIdTaiXe;
+        [DevExpress.Xpo.DisplayName(@"Id Tài Xế")]
         public string IdTaiXe
         {
             get { return fIdTaiXe; }
             set { SetPropertyValue<string>(nameof(IdTaiXe), ref fIdTaiXe, value); }
         }
         string fTenTaiXe;
+        [DevExpress.Xpo.DisplayName(@"Tên Tài Xế")]
         public string TenTaiXe
         {
             get { return fTenTaiXe; }
             set { SetPropertyValue<string>(nameof(TenTaiXe), ref fTenTaiXe, value); }
         }
         string fTaiKhoan;
+        [DevExpress.Xpo.DisplayName(@"Tài Khoản")]
         public string TaiKhoan
         {
             get { return fTaiKhoan; }
             set { SetPropertyValue<string>(nameof(TaiKhoan), ref fTaiKhoan, value); }
         }
         string fMatKhau;
+        [DevExpress.Xpo.DisplayName(@"Mật Khẩu")]
         public string MatKhau
         {
             get { return fMatKhau; }
             set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
         }
         string fSoDT;
+        [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT
         {
             get { return fSoDT; }
             set { SetPropertyValue<string>(nameof(SoDT), ref fSoDT, value); }
         }
         string fDiaChi;
+        [DevExpress.Xpo.DisplayName(@"Địa Chỉ")]
         public string DiaChi
         {
             get { return fDiaChi; }
             set { SetPropertyValue<string>(nameof(DiaChi), ref fDiaChi, value); }
         }
         string fSoCCCD;
+        [DevExpress.Xpo.DisplayName(@"Số Căn Cước Công Dân")]
         public string SoCCCD
         {
             get { return fSoCCCD; }
             set { SetPropertyValue<string>(nameof(SoCCCD), ref fSoCCCD, value); }
         }
         string fGiayPhepLaiXe;
+        [DevExpress.Xpo.DisplayName(@"Giấy Phép Lái Xe")]
         public string GiayPhepLaiXe
         {
             get { return fGiayPhepLaiXe; }
             set { SetPropertyValue<string>(nameof(GiayPhepLaiXe), ref fGiayPhepLaiXe, value); }
         }
-        string fNgayKiHopDong;
-        public string NgayKiHopDong
+        DateTime fNgayKiHopDong;
+        [DevExpress.Xpo.DisplayName(@"Ngày Kí hợp Đồng")]
+        public DateTime NgayKiHopDong
         {
             get { return fNgayKiHopDong; }
-            set { SetPropertyValue<string>(nameof(NgayKiHopDong), ref fNgayKiHopDong, value); }
+            set { SetPropertyValue<DateTime>(nameof(NgayKiHopDong), ref fNgayKiHopDong, value); }
         }
-        string fThoiHanHopDong;
-        public string ThoiHanHopDong
+        DateTime fThoiHanHopDong;
+        [DevExpress.Xpo.DisplayName(@"Thời Hạn Hợp Đồng")]
+        public DateTime ThoiHanHopDong
         {
             get { return fThoiHanHopDong; }
-            set { SetPropertyValue<string>(nameof(ThoiHanHopDong), ref fThoiHanHopDong, value); }
+            set { SetPropertyValue<DateTime>(nameof(ThoiHanHopDong), ref fThoiHanHopDong, value); }
         }
         NhaXe fIdNhaXe;
         [Association(@"TaiXeReferencesNhaXe")]
+        [DevExpress.Xpo.DisplayName(@"Id Nhà Xe")]
         public NhaXe IdNhaXe
         {
             get { return fIdNhaXe; }

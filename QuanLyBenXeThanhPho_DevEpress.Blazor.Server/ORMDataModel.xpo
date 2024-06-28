@@ -5,7 +5,7 @@
       <xpObject Id="b4c4d634-f750-4bdf-aa46-641bdeb5d919" name="NhaXe" baseClass="XPObject" userFileName="NhaXe" designerFileName="NhaXe.Designer" className="NhaXe" virtualName="NhaXe">
         <fields>
           <generalXpObjectHasFields Id="8c82b46d-83f4-42f1-98e6-562c97e08ccf">
-            <field Id="fd650be8-4401-4623-9cbd-24a059712139" name="IdNhaXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="fd650be8-4401-4623-9cbd-24a059712139" name="IdNhaXe" displayName="Id Nhà Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="5ea8eae2-feee-4be1-8dd9-6d54a90d8ef1">
             <field Id="1f6adadc-d3e5-480e-a696-ebea1a04bd8b" name="TenNhaXe" displayName="Tên Nhà Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
@@ -20,19 +20,19 @@
             <field Id="8bd906a2-ed41-492c-887e-74bce4400ae4" name="MatKhau" displayName="Mật Khẩu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="5d841452-a73a-4330-87ad-856e0c7c4ecd">
-            <field Id="4c52b8cc-7f1c-47d9-b2ed-caac03eaafeb" name="SoDT" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="4c52b8cc-7f1c-47d9-b2ed-caac03eaafeb" name="SoDT" displayName="Số Điện Thoại" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="fc757e29-e175-47b9-b2a2-9ad270567a81">
-            <field Id="d55b4bad-90eb-4ebe-9b09-0175c4eaa944" name="SoCCCD" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="d55b4bad-90eb-4ebe-9b09-0175c4eaa944" name="SoCCCD" displayName="Số Căn Cước Công Dân" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="3eb0ab35-0035-4519-8713-d20be13f0d5f">
-            <field Id="bdd16784-d9a5-44e2-8d12-66f33d937314" name="DiaChi" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="bdd16784-d9a5-44e2-8d12-66f33d937314" name="DiaChi" displayName="Địa Chỉ" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="88dbb2a1-744a-487d-b844-02dd84da1cdd">
-            <field Id="d6fc8013-7300-4fab-b4ba-bb402a314619" name="SoLuongXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="d6fc8013-7300-4fab-b4ba-bb402a314619" name="SoLuongXe" columnType="Int16" displayName="Số Lượng Xe" virtualColumnType="Int16" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="4eb67e88-14e5-4485-86b8-17590e7f2acc">
-            <field Id="76e9148b-550b-4d4f-be02-ed3319b09388" name="SoDTDatXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="76e9148b-550b-4d4f-be02-ed3319b09388" name="SoDTDatXe" displayName="Số Điện Thoại Đặt Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
         <aggrTarget>
@@ -63,25 +63,25 @@
       <xpObject Id="c12b3c3d-95d6-4d01-9471-b732c14472c2" name="XeCoDinh" baseClass="XPObject" userFileName="XeCoDinh" designerFileName="XeCoDinh.Designer" className="XeCoDinh" virtualName="XeCoDinh">
         <fields>
           <generalXpObjectHasFields Id="60863971-bf43-4046-bdfb-4d4e7f91636b">
-            <field Id="1271d4e1-7a15-43cb-a86a-ab82b30dc896" name="IdXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="1271d4e1-7a15-43cb-a86a-ab82b30dc896" name="IdXe" displayName="Id Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="7d4cd734-ecd6-47ac-a2a6-e0c009f29b68">
-            <field Id="aa16ae14-2400-401f-8329-10febfee3b0d" name="LoaiXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="aa16ae14-2400-401f-8329-10febfee3b0d" name="LoaiXe" displayName="Loại Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="9128b37b-0d0c-4a2c-9fb0-aef8f07b592a">
-            <field Id="b90f1e8d-4a24-4c22-8f4b-5907e85aba5d" name="BienSo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="b90f1e8d-4a24-4c22-8f4b-5907e85aba5d" name="BienSo" displayName="Biển Số" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="50cfe8e7-0a91-4a8c-a56d-b9538701497a">
-            <field Id="f0340d09-9517-4f72-86b1-0ef5a9a6df88" name="SoChoNgoi" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="f0340d09-9517-4f72-86b1-0ef5a9a6df88" name="SoChoNgoi" columnType="Int16" displayName="Số Chỗ Ngồi" virtualColumnType="Int16" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="e26835af-714f-41c9-8b58-79a718e5947a">
-            <field Id="ff3e6c88-7c19-469b-a879-7d299c4b13c8" name="NgayCapThe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="ff3e6c88-7c19-469b-a879-7d299c4b13c8" name="NgayCapThe" columnType="DateTime" displayName="Ngày Cấp Thẻ" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="b3747879-fb34-4182-aba4-a882fa7f10de">
-            <field Id="c0773931-9e5c-46ee-af1d-4211b09590da" name="SoLuotConLai" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="c0773931-9e5c-46ee-af1d-4211b09590da" name="SoLuotConLai" columnType="Int16" displayName="Số Lượt Còn Lại" virtualColumnType="Int16" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="933f34ac-db52-44f4-aa22-4b624988c1e0">
-            <field Id="d7914803-67e9-424c-a034-6fe7f70b7b72" name="IdNhaXe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
+            <field Id="d7914803-67e9-424c-a034-6fe7f70b7b72" name="IdNhaXe" displayName="Id Nhà Xe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
         <aggrTarget>
@@ -106,19 +106,19 @@
       <xpObject Id="78772ece-40a0-479d-89e2-a479f5e11e53" name="YeuCau" baseClass="XPObject" userFileName="YeuCau" designerFileName="YeuCau.Designer" className="YeuCau" virtualName="YeuCau">
         <fields>
           <generalXpObjectHasFields Id="402c5455-3a75-4dc2-b303-279c14a03821">
-            <field Id="cbdffc35-f480-42af-a801-4cb98dfb0300" name="IdYeuCau" displayName="Id yêu Cầu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="cbdffc35-f480-42af-a801-4cb98dfb0300" name="IdYeuCau" displayName="Id Yêu Cầu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="1ceec78b-01fb-498b-b084-0734cb7a5a21">
-            <field Id="7975a5e2-5fb4-4273-98ae-42162fc96be9" name="NoiDung" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="7975a5e2-5fb4-4273-98ae-42162fc96be9" name="NoiDung" displayName="Nội Dung" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="a52f6acd-a2f7-40c8-a733-3d840c4d157d">
-            <field Id="e1ab4c2e-7604-4b2c-9073-c12452846f20" name="TrangThai" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="e1ab4c2e-7604-4b2c-9073-c12452846f20" name="TrangThai" columnType="Boolean" displayName="Trạng Thái" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="4551743a-7db0-4d0f-b6b4-544df40cac64">
-            <field Id="c5c2f5ec-e53d-4f2f-ab8b-19263c01ccd1" name="LoaiYeuCau" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="c5c2f5ec-e53d-4f2f-ab8b-19263c01ccd1" name="LoaiYeuCau" displayName="Loại Yêu Cầu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="582b0582-d6b8-4521-b4a0-d307443ab918">
-            <field Id="23513320-e631-4dea-8cdb-b86ace20e0d3" name="IdNhaXe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
+            <field Id="23513320-e631-4dea-8cdb-b86ace20e0d3" name="IdNhaXe" displayName="Id Nhà Xe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>
@@ -145,25 +145,25 @@
       <xpObject Id="01d0c789-db8b-4953-afab-4812d68e9aa1" name="NhanVienSoatVe" baseClass="XPObject" userFileName="NhanVienSoatVe" designerFileName="NhanVienSoatVe.Designer" className="NhanVienSoatVe" virtualName="NhanVienSoatVe">
         <fields>
           <generalXpObjectHasFields Id="aa7b3d80-bd40-445c-ab08-25e099ed2e29">
-            <field Id="d7198693-7ed6-4c16-9188-ca44df6bf2e7" name="IdNhanVien" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="d7198693-7ed6-4c16-9188-ca44df6bf2e7" name="IdNhanVien" displayName="Id Nhân Viên" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="94762caa-b7d3-423d-a616-cf4703f1b69d">
-            <field Id="fe56ab87-cb9a-4085-a288-8e137d26dbb4" name="TenNhanVien" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="fe56ab87-cb9a-4085-a288-8e137d26dbb4" name="TenNhanVien" displayName="Tên Nhân Viên" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="d6e199c0-c2e4-4986-92ac-e4a56644b908">
-            <field Id="b2f791db-0d5b-42db-a3b6-b104531c94a2" name="TaiKhoan" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="b2f791db-0d5b-42db-a3b6-b104531c94a2" name="TaiKhoan" displayName="Tài Khoản" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="9a42f09e-995b-49c0-af46-61fe9910beb3">
-            <field Id="429b8146-c568-43dd-b900-fec5efd3b093" name="MatKhau" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="429b8146-c568-43dd-b900-fec5efd3b093" name="MatKhau" displayName="Mật Khẩu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="115de1ea-bb9e-4bff-8c43-79d0bf3dbf08">
-            <field Id="f3431298-e70c-4d3c-aaae-fa83fc059ccb" name="SoDT" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="f3431298-e70c-4d3c-aaae-fa83fc059ccb" name="SoDT" displayName="Số Điện Thoại" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="0dfc4b31-5e44-473e-bdab-8eb36fe40399">
-            <field Id="db9618d4-9cae-45f8-8d16-c9b2bae88705" name="SoCCCD" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="db9618d4-9cae-45f8-8d16-c9b2bae88705" name="SoCCCD" displayName="Số Căn Cước Công Dân" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="3a2d9bd2-0737-4eb5-a028-8e5ebdf27846">
-            <field Id="312a14b3-26b3-4455-9c53-200517d185ef" name="DiaChi" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="312a14b3-26b3-4455-9c53-200517d185ef" name="DiaChi" displayName="Địa Chỉ" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
         <aggrTarget>
@@ -188,37 +188,37 @@
       <xpObject Id="98e5f360-57da-46f4-ad0b-b4a84e448d80" name="TaiXe" baseClass="XPObject" userFileName="TaiXe" designerFileName="TaiXe.Designer" className="TaiXe" virtualName="TaiXe">
         <fields>
           <generalXpObjectHasFields Id="1974a2ff-ea62-497e-9cf2-928fd97d98d8">
-            <field Id="2586159e-ab20-4c83-8672-81d7c9294d4a" name="IdTaiXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="2586159e-ab20-4c83-8672-81d7c9294d4a" name="IdTaiXe" displayName="Id Tài Xế" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="d98c81ac-800d-46b4-a5e4-778ad225656f">
-            <field Id="43cc0191-7441-4e2f-8303-74f2b971bae4" name="TenTaiXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="43cc0191-7441-4e2f-8303-74f2b971bae4" name="TenTaiXe" displayName="Tên Tài Xế" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="45f9c2d7-486c-4dff-94b4-a7b7aa58ab29">
-            <field Id="41fc33e3-4e50-4ba4-8706-e0bc53091b48" name="TaiKhoan" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="41fc33e3-4e50-4ba4-8706-e0bc53091b48" name="TaiKhoan" displayName="Tài Khoản" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="4d7c54f5-2a44-4122-babd-30e79a4a10c6">
-            <field Id="891db98e-d868-4c86-9d2d-64edd1cee6e5" name="MatKhau" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="891db98e-d868-4c86-9d2d-64edd1cee6e5" name="MatKhau" displayName="Mật Khẩu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="149955e5-c4d4-4a55-8ba8-eae1214d0638">
-            <field Id="51131541-7242-4b82-9b34-79ae82f16a93" name="SoDT" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="51131541-7242-4b82-9b34-79ae82f16a93" name="SoDT" displayName="Số Điện Thoại" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="6e49be5d-a242-44cc-8013-a014ca835f95">
-            <field Id="733d7ecb-be50-49bd-8e2a-2b68b58f88b8" name="DiaChi" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="733d7ecb-be50-49bd-8e2a-2b68b58f88b8" name="DiaChi" displayName="Địa Chỉ" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="a1605a21-9750-4fbb-8f22-179e8f3fb0dd">
-            <field Id="e6a34e1a-84c4-4562-9378-d7ffcb8b44d9" name="SoCCCD" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="e6a34e1a-84c4-4562-9378-d7ffcb8b44d9" name="SoCCCD" displayName="Số Căn Cước Công Dân" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="858ec963-15de-4329-a5f8-7c65dc27ce86">
-            <field Id="ff45bafb-4122-402a-9e14-056b5823d193" name="GiayPhepLaiXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="ff45bafb-4122-402a-9e14-056b5823d193" name="GiayPhepLaiXe" displayName="Giấy Phép Lái Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="2172fb5b-a6b5-414a-9cfa-25ce2731e615">
-            <field Id="f6893eec-c238-40c2-9ad6-3be2685ce14f" name="NgayKiHopDong" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="f6893eec-c238-40c2-9ad6-3be2685ce14f" name="NgayKiHopDong" columnType="DateTime" displayName="Ngày Kí hợp Đồng" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="3acf1255-c54a-4ee0-ad38-a4d8727b52c5">
-            <field Id="b1a9354b-ff57-41ac-a54a-3830fdc14a9c" name="ThoiHanHopDong" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="b1a9354b-ff57-41ac-a54a-3830fdc14a9c" name="ThoiHanHopDong" columnType="DateTime" displayName="Thời Hạn Hợp Đồng" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="098d4598-cd31-4165-9438-f35a26e2d9dc">
-            <field Id="5edf392a-50c5-4313-92d7-8c4d972ae588" name="IdNhaXe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
+            <field Id="5edf392a-50c5-4313-92d7-8c4d972ae588" name="IdNhaXe" displayName="Id Nhà Xe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
         <aggrTarget>
@@ -237,22 +237,22 @@
       <xpObject Id="4bdef784-b8f4-459c-b8f4-7488bdc97cf0" name="BangLichTrinh" baseClass="XPObject" userFileName="BangLichTrinh" designerFileName="BangLichTrinh.Designer" className="BangLichTrinh" virtualName="BangLichTrinh">
         <fields>
           <generalXpObjectHasFields Id="c26b6683-f68c-49c2-8a8c-c0eab64d7d27">
-            <field Id="6b4ea6e1-d91e-4fb0-a8b1-4721c3a2399f" name="IdLichTrinh" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="6b4ea6e1-d91e-4fb0-a8b1-4721c3a2399f" name="IdLichTrinh" displayName="Id Lịch Trình" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="2c99a1e7-e1f5-4f5b-b411-f65c18b59259">
-            <field Id="c337abc8-0e9c-4cfb-a129-a37364447d8e" name="GioXuatPhat" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="c337abc8-0e9c-4cfb-a129-a37364447d8e" name="GioXuatPhat" columnType="DateTime" displayName="Giờ Xuất Phát" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="af79ac50-775f-4e1e-9aa6-3251ae148637">
-            <field Id="7d3dd370-2b10-4bfb-bdcb-b991ffabb6d0" name="DiemDen" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="7d3dd370-2b10-4bfb-bdcb-b991ffabb6d0" name="DiemDen" displayName="Điểm Đến" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="5bf6ebff-9f07-4647-b9f1-581604d11a64">
-            <field Id="4bec0eae-1f8e-4aca-8f7d-eb236715531b" name="GiaVe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="4bec0eae-1f8e-4aca-8f7d-eb236715531b" name="GiaVe" columnType="Int64" displayName="Giá Vé" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="6e592bf4-3bc3-4e29-9a7f-48cbb8a7b84c">
-            <field Id="2700f76b-7871-41de-82ce-f69662d611e0" name="IdTaiXe" virtualColumnType="TaiXe" logicalType="TaiXe" delayedUpdateModifiedOnly="false" />
+            <field Id="2700f76b-7871-41de-82ce-f69662d611e0" name="IdTaiXe" displayName="Id Tài Xế" virtualColumnType="TaiXe" logicalType="TaiXe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="4cbc5dbe-c553-450f-9d8d-88a2aaabf629">
-            <field Id="0a5af401-7301-403c-a88c-17444580fe2e" name="IdXe" virtualColumnType="XeCoDinh" logicalType="XeCoDinh" delayedUpdateModifiedOnly="false" />
+            <field Id="0a5af401-7301-403c-a88c-17444580fe2e" name="IdXe" displayName="Id Xe" virtualColumnType="XeCoDinh" logicalType="XeCoDinh" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>
@@ -261,16 +261,16 @@
       <xpObject Id="65e6cde1-22ba-4036-8dc6-8154cc86d411" name="BangBaoCao" baseClass="XPObject" userFileName="BangBaoCao" designerFileName="BangBaoCao.Designer" className="BangBaoCao" virtualName="BangBaoCao">
         <fields>
           <generalXpObjectHasFields Id="7127ccb4-10cf-409d-9c6c-b8afa4c39fab">
-            <field Id="4fe7891d-f060-4558-9d60-d1e2baf2b3cc" name="IdBaoCao" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="4fe7891d-f060-4558-9d60-d1e2baf2b3cc" name="IdBaoCao" displayName="Id Báo Cáo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="d19c1027-a532-44cb-a41e-5542e5f5a932">
-            <field Id="9300aeb0-c2ae-47a7-b25c-d019d7968d7f" name="DoanhThu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="9300aeb0-c2ae-47a7-b25c-d019d7968d7f" name="DoanhThu" displayName="Doanh Thu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="8ef98904-99cc-41e3-8b09-d1d078c754d2">
-            <field Id="def99e0b-5358-4238-abe2-54d59c7b2ef7" name="GhiChu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="def99e0b-5358-4238-abe2-54d59c7b2ef7" name="GhiChu" displayName="Ghi Chú" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="cc1a11c6-ea40-49bf-93fc-d3e4e4a8872a">
-            <field Id="10e57ede-8931-420c-8ac7-d87082e68dae" name="IdNhanVien" virtualColumnType="NhanVienSoatVe" logicalType="NhanVienSoatVe" delayedUpdateModifiedOnly="false" />
+            <field Id="10e57ede-8931-420c-8ac7-d87082e68dae" name="IdNhanVien" displayName="Id Nhân Viên" virtualColumnType="NhanVienSoatVe" logicalType="NhanVienSoatVe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>
@@ -279,28 +279,28 @@
       <xpObject Id="d126dc2a-2d57-4269-8202-b55e51b53e6e" name="LichSuRaVao" baseClass="XPObject" userFileName="LichSuRaVao" designerFileName="LichSuRaVao.Designer" className="LichSuRaVao" virtualName="LichSuRaVao">
         <fields>
           <generalXpObjectHasFields Id="56c6b1cb-fb51-41af-8936-aa315ec44419">
-            <field Id="d61ef415-7e73-42f5-ba23-c549f2b446ab" name="IdLichSu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="d61ef415-7e73-42f5-ba23-c549f2b446ab" name="IdLichSu" displayName="Id Lịch Sử" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="7793cfac-6230-4323-af21-deade32a99c2">
-            <field Id="4e4bd922-4564-4dd0-a288-8dfcc85b9464" name="ThoiGianVao" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="4e4bd922-4564-4dd0-a288-8dfcc85b9464" name="ThoiGianVao" columnType="DateTime" displayName="Thời Gian Vào" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="058886a0-3a49-4bd4-a3a7-aefcb24ddb90">
-            <field Id="696e2fec-d4c9-48d8-b717-ec1a11639fb1" name="ThoiGianRa" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="696e2fec-d4c9-48d8-b717-ec1a11639fb1" name="ThoiGianRa" columnType="DateTime" displayName="Thời Gian Ra" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="ac1ec64f-fcb8-4355-9338-27f330f0d4bc">
-            <field Id="fcd65bf9-662d-4344-b159-da8de46c71b1" name="BienSo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="fcd65bf9-662d-4344-b159-da8de46c71b1" name="BienSo" displayName="Biển Số" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="a8ba8435-531f-4013-af8b-7422c65d767c">
-            <field Id="26bef8d9-05e7-4337-9eb7-9dddac6ca83b" name="LoaiXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="26bef8d9-05e7-4337-9eb7-9dddac6ca83b" name="LoaiXe" displayName="Loại Xe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="d55a51f3-0a95-45ac-9c3d-87a89adb2fd2">
-            <field Id="6cf7230a-82a8-4967-bf02-81dbdf79a2e1" name="GiaTien" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="6cf7230a-82a8-4967-bf02-81dbdf79a2e1" name="GiaTien" columnType="Int64" displayName="Giá Tiền" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="82bb7696-9e66-44a0-a679-9465a61d6848">
-            <field Id="626842e2-eda3-41b9-af49-5efb13227458" name="IdXe" virtualColumnType="XeCoDinh" logicalType="XeCoDinh" delayedUpdateModifiedOnly="false" />
+            <field Id="626842e2-eda3-41b9-af49-5efb13227458" name="IdXe" displayName="Id Xe" virtualColumnType="XeCoDinh" logicalType="XeCoDinh" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="37c0ad5c-a631-46cd-b3e5-10b70ce28995">
-            <field Id="ee608ff0-16c6-486c-b124-3bf85162c589" name="IdNhanVien" virtualColumnType="NhanVienSoatVe" logicalType="NhanVienSoatVe" delayedUpdateModifiedOnly="false" />
+            <field Id="ee608ff0-16c6-486c-b124-3bf85162c589" name="IdNhanVien" displayName="Id Nhân Viên" virtualColumnType="NhanVienSoatVe" logicalType="NhanVienSoatVe" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>

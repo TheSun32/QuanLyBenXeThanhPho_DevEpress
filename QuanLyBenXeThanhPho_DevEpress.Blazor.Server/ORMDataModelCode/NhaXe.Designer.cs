@@ -19,6 +19,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class NhaXe : XPObject
     {
         string fIdNhaXe;
+        [DevExpress.Xpo.DisplayName(@"Id Nhà Xe")]
         public string IdNhaXe
         {
             get { return fIdNhaXe; }
@@ -53,30 +54,35 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
         }
         string fSoDT;
+        [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT
         {
             get { return fSoDT; }
             set { SetPropertyValue<string>(nameof(SoDT), ref fSoDT, value); }
         }
         string fSoCCCD;
+        [DevExpress.Xpo.DisplayName(@"Số Căn Cước Công Dân")]
         public string SoCCCD
         {
             get { return fSoCCCD; }
             set { SetPropertyValue<string>(nameof(SoCCCD), ref fSoCCCD, value); }
         }
         string fDiaChi;
+        [DevExpress.Xpo.DisplayName(@"Địa Chỉ")]
         public string DiaChi
         {
             get { return fDiaChi; }
             set { SetPropertyValue<string>(nameof(DiaChi), ref fDiaChi, value); }
         }
-        string fSoLuongXe;
-        public string SoLuongXe
+        short fSoLuongXe;
+        [DevExpress.Xpo.DisplayName(@"Số Lượng Xe")]
+        public short SoLuongXe
         {
             get { return fSoLuongXe; }
-            set { SetPropertyValue<string>(nameof(SoLuongXe), ref fSoLuongXe, value); }
+            set { SetPropertyValue<short>(nameof(SoLuongXe), ref fSoLuongXe, value); }
         }
         string fSoDTDatXe;
+        [DevExpress.Xpo.DisplayName(@"Số Điện Thoại Đặt Xe")]
         public string SoDTDatXe
         {
             get { return fSoDTDatXe; }

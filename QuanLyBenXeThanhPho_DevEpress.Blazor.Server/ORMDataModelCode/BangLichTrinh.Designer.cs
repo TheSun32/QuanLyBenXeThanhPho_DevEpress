@@ -19,31 +19,36 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class BangLichTrinh : XPObject
     {
         string fIdLichTrinh;
+        [DevExpress.Xpo.DisplayName(@"Id Lịch Trình")]
         public string IdLichTrinh
         {
             get { return fIdLichTrinh; }
             set { SetPropertyValue<string>(nameof(IdLichTrinh), ref fIdLichTrinh, value); }
         }
-        string fGioXuatPhat;
-        public string GioXuatPhat
+        DateTime fGioXuatPhat;
+        [DevExpress.Xpo.DisplayName(@"Giờ Xuất Phát")]
+        public DateTime GioXuatPhat
         {
             get { return fGioXuatPhat; }
-            set { SetPropertyValue<string>(nameof(GioXuatPhat), ref fGioXuatPhat, value); }
+            set { SetPropertyValue<DateTime>(nameof(GioXuatPhat), ref fGioXuatPhat, value); }
         }
         string fDiemDen;
+        [DevExpress.Xpo.DisplayName(@"Điểm Đến")]
         public string DiemDen
         {
             get { return fDiemDen; }
             set { SetPropertyValue<string>(nameof(DiemDen), ref fDiemDen, value); }
         }
-        string fGiaVe;
-        public string GiaVe
+        long fGiaVe;
+        [DevExpress.Xpo.DisplayName(@"Giá Vé")]
+        public long GiaVe
         {
             get { return fGiaVe; }
-            set { SetPropertyValue<string>(nameof(GiaVe), ref fGiaVe, value); }
+            set { SetPropertyValue<long>(nameof(GiaVe), ref fGiaVe, value); }
         }
         TaiXe fIdTaiXe;
         [Association(@"BangLichTrinhReferencesTaiXe")]
+        [DevExpress.Xpo.DisplayName(@"Id Tài Xế")]
         public TaiXe IdTaiXe
         {
             get { return fIdTaiXe; }
@@ -51,6 +56,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
         }
         XeCoDinh fIdXe;
         [Association(@"BangLichTrinhReferencesXeCoDinh")]
+        [DevExpress.Xpo.DisplayName(@"Id Xe")]
         public XeCoDinh IdXe
         {
             get { return fIdXe; }

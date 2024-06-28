@@ -4,7 +4,7 @@
     <Items>
       <Item Id="Default">
         <Items>
-          <Item Id="Admin_ListView" ImageName="BO_User" />
+          <Item Id="Admin_ListView" ImageName="AllowUsersToEditRanges" />
         </Items>
       </Item>
     </Items>

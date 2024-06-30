@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="927aed6e-2491-4a33-9a16-66e7884fe9af" namespace="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.3.0" generateJsonSerializationContractResolver="true" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.3.0" name="ORMDataModel" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="927aed6e-2491-4a33-9a16-66e7884fe9af" namespace="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.3.0" generateJsonSerializationContractResolver="true" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.3.0" name="ORMDataModel" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
   <classes>
     <dataBaseObjectModelHasClasses Id="25b67b39-19ba-4ea0-9f2e-77332256409b">
       <xpObject Id="b4c4d634-f750-4bdf-aa46-641bdeb5d919" name="NhaXe" baseClass="XPObject" userFileName="NhaXe" designerFileName="NhaXe.Designer" className="NhaXe" virtualName="NhaXe">
@@ -45,6 +45,9 @@
           <aggregation Id="8b0513d9-c15b-4af5-9246-eeed5c11dfc9" sourceCollectionName="TaiXes" name="TaiXeReferencesNhaXe" targetFieldName="IdNhaXe">
             <xpObjectMoniker Id="98e5f360-57da-46f4-ad0b-b4a84e448d80" />
           </aggregation>
+          <aggregation Id="58456a68-1bd1-4d0f-9d47-10da44489233" sourceCollectionName="TheXes" name="TheXeReferencesNhaXe" targetFieldName="IdNhaXe">
+            <xpObjectMoniker Id="24af92ff-96f3-4c2c-b20a-02440c4f9bf7" />
+          </aggregation>
         </aggrTarget>
         <collectionFields>
           <xpObjectHasCollectionFields Id="4c822d0a-3a59-467a-a5d2-4c1f9567a7bc">
@@ -55,6 +58,9 @@
           </xpObjectHasCollectionFields>
           <xpObjectHasCollectionFields Id="5f1f6496-26e4-4739-98c9-54942d16204e">
             <collectionField Id="4d870d79-f520-4621-88ba-5460947494a3" name="TaiXes" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="06febbfe-55e8-45ca-b9f8-7b924fb42c04">
+            <collectionField Id="d47febd6-f41c-4983-9461-b67e048d0315" name="TheXes" />
           </xpObjectHasCollectionFields>
         </collectionFields>
       </xpObject>
@@ -139,6 +145,16 @@
             <field Id="cdeadf4a-5e3b-4160-9f31-62f791977fde" name="MatKhau" displayName="Mật Khẩu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
+        <saTargets>
+          <simpleAssociation Id="bed24cc7-3018-4037-8d25-8e52f1f9a6dc" sourceCollectionName="TheXes" name="TheXeReferencesAdmin" targetFieldName="IdAdmin">
+            <xpObjectMoniker Id="24af92ff-96f3-4c2c-b20a-02440c4f9bf7" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="2939de72-b291-49c1-9703-f92bb490904a">
+            <collectionField Id="60b93561-993d-4417-a91b-1ae19515a599" name="TheXes" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
       </xpObject>
     </dataBaseObjectModelHasClasses>
     <dataBaseObjectModelHasClasses Id="c11d7159-0d4c-4f05-a2f2-d2688abbf7fa">
@@ -301,6 +317,30 @@
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="37c0ad5c-a631-46cd-b3e5-10b70ce28995">
             <field Id="ee608ff0-16c6-486c-b124-3bf85162c589" name="IdNhanVien" displayName="Id Nhân Viên" virtualColumnType="NhanVienSoatVe" logicalType="NhanVienSoatVe" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="8dc29571-5ba4-448a-aa4d-c275acf91e3e">
+      <xpObject Id="24af92ff-96f3-4c2c-b20a-02440c4f9bf7" name="TheXe" baseClass="XPObject" userFileName="TheXe" designerFileName="TheXe.Designer" className="TheXe" virtualName="TheXe">
+        <fields>
+          <generalXpObjectHasFields Id="a543dd43-040b-46d9-88cb-b38158821d15">
+            <field Id="f26f0545-4e52-43d5-85fe-d20b4f7f4ef4" name="IdTheXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b3abb238-682f-4637-9ab9-0d4b8055be02">
+            <field Id="c37725eb-c287-47f0-a993-f05c5bfde4bd" name="TenXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f537ef07-3ab0-42ec-bf45-a0f66edbb62c">
+            <field Id="934a0a27-73dd-4f8d-b4ca-c8d0260240ca" name="TenNhaXe" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="07b04c8c-638f-4a23-91ff-daabd7be394e">
+            <field Id="89015376-bc78-43be-8c6d-b1464cca3172" name="SoLuot" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="476e435f-950a-4610-9862-bff75ee2934f">
+            <field Id="cae5b8b3-04af-49ae-a456-e92e89254452" name="IdNhaXe" virtualColumnType="NhaXe" logicalType="NhaXe" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6da17b2d-67a4-4ce5-8ec5-8bdec07f5952">
+            <field Id="8da92467-c14d-4d73-bb3e-91ce59ecc3c0" name="IdAdmin" virtualColumnType="Admin" logicalType="Admin" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>

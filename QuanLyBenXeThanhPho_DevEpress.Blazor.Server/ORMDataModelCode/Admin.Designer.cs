@@ -46,6 +46,8 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fMatKhau; }
             set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
         }
+        [Association(@"TheXeReferencesAdmin")]
+        public XPCollection<TheXe> TheXes { get { return GetCollection<TheXe>(nameof(TheXes)); } }
     }
 
 }

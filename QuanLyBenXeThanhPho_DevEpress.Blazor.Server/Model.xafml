@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Quản Lý Bến Xe">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Hủy" />
+      <Action Id="Close" Caption="Đóng" />
+      <Action Id="Delete" Caption="Xóa" />
+      <Action Id="New" Caption="Tạo Mới" />
+      <Action Id="Save" Caption="Lưu" />
+    </Actions>
+  </ActionDesign>
   <NavigationItems NavigationStyle="Accordion">
     <Items>
       <Item Id="Default">

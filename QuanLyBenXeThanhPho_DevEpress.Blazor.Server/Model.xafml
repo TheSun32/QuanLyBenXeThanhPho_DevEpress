@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application>
+<Application Title="Quản Lý Bến Xe">
   <NavigationItems NavigationStyle="Accordion">
     <Items>
       <Item Id="Default">

@@ -9,6 +9,9 @@
       <Action Id="Save" Caption="Lưu" />
     </Actions>
   </ActionDesign>
+  <CreatableItems>
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.BangBaoCao" Caption="Bảng báo cáo" />
+  </CreatableItems>
   <NavigationItems NavigationStyle="Accordion">
     <Items>
       <Item Id="Default">

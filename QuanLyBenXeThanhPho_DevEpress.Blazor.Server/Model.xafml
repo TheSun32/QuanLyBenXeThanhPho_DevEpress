@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Title="Quản Lý Bến Xe">
+<Application Title="Quản Lý Bến Xe" Company="Quản Lý Bến Xe">
   <ActionDesign>
     <Actions>
       <Action Id="Cancel" Caption="Hủy" />
@@ -7,22 +7,33 @@
       <Action Id="Delete" Caption="Xóa" />
       <Action Id="New" Caption="Tạo Mới" />
       <Action Id="Save" Caption="Lưu" />
+      <Action Id="SaveAndClose" ShortCaption="Lưu Và Đóng" />
+      <Action Id="SaveAndNew" ShortCaption="Lưu Và Tạo Mới" />
     </Actions>
   </ActionDesign>
   <CreatableItems>
     <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.BangBaoCao" Caption="Bảng báo cáo" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.LichSuRaVao" Caption="Lịch Sử Ra Vào" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.NhanVienSoatVe" Caption="Nhân Viên Soát Vé" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.NhaXe" Caption="Nhà Xe" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.QuanLyBenXe" Caption="Quản Lý Bến Xe" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.TaiXe" Caption="Tài Xế" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.TheXe" Caption="Thẻ Xe" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.XeCoDinh" Caption="Xe Cố Định" />
+    <CreatableItem ClassName="QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel.YeuCau" Caption="Yêu Cầu" />
   </CreatableItems>
   <NavigationItems NavigationStyle="Accordion">
     <Items>
       <Item Id="Default">
         <Items>
-          <Item Id="Admin_ListView" ImageName="BO_User" />
           <Item Id="BangBaoCao_ListView" Caption="Bảng Báo Cáo" ImageName="BO_Report" />
           <Item Id="BangLichTrinh_ListView" Caption="Bảng Lịch Trình" ImageName="BO_Note" />
           <Item Id="LichSuRaVao_ListView" Caption="Lịch Sử Ra Vào" ImageName="BO_List" />
           <Item Id="NhanVienSoatVe_ListView" Caption="Nhân Viên Soát Vé" ImageName="BO_Position" />
           <Item Id="NhaXe_ListView" Caption="Nhà Xe" ImageName="BO_Customer" />
+          <Item Id="QuanLyBenXe_ListView" Caption="Quản Lý Bến Xe" />
           <Item Id="TaiXe_ListView" Caption="Tài Xế" ImageName="BO_Employee" />
+          <Item Id="TheXe_ListView" Caption="Thẻ Xe" />
           <Item Id="XeCoDinh_ListView" Caption="Xe Cố Định" ImageName="BO_Vendor" />
           <Item Id="YeuCau_ListView" Caption="Yêu Cầu" ImageName="Action_AboutInfo" />
         </Items>
@@ -36,4 +47,45 @@
     <SchemaModule Name="SchedulerModuleBase" Version="24.1.3.0" IsNewNode="True" />
     <SchemaModule Name="SystemModule" Version="24.1.3.0" IsNewNode="True" />
   </SchemaModules>
+  <Views>
+    <DetailView Id="BangBaoCao_DetailView" Caption="Bảng Báo Cáo" />
+    <ListView Id="BangBaoCao_ListView" Caption="Bảng Báo Cáo" />
+    <ListView Id="BangBaoCao_LookupListView" Caption="Bảng Báo Cáo" />
+    <DetailView Id="BangLichTrinh_DetailView" Caption="Bảng Lịch Trình" />
+    <ListView Id="BangLichTrinh_ListView" Caption="Bảng Lịch Trình" />
+    <ListView Id="BangLichTrinh_LookupListView" Caption="Bảng Lịch Trình" />
+    <DetailView Id="LichSuRaVao_DetailView" Caption="Lịch Sử Ra Vào" />
+    <ListView Id="LichSuRaVao_ListView" Caption="Lịch Sử Ra Vào" />
+    <ListView Id="LichSuRaVao_LookupListView" Caption="Lịch Sử Ra Vào" />
+    <ListView Id="NhanVienSoatVe_BangBaoCaos_ListView" Caption="Bảng Báo Cáo" />
+    <DetailView Id="NhanVienSoatVe_DetailView" Caption="Nhân Viên Soát Vé" />
+    <ListView Id="NhanVienSoatVe_LichSuRaVaos_ListView" Caption="Lịch Sử Ra Vào" />
+    <ListView Id="NhanVienSoatVe_ListView" Caption="Nhân Viên Soát Vé" />
+    <ListView Id="NhanVienSoatVe_LookupListView" Caption="Nhân Viên Soát Vé" />
+    <DetailView Id="NhaXe_DetailView" Caption="Nhà Xe" />
+    <ListView Id="NhaXe_ListView" Caption="Nhà Xe" />
+    <ListView Id="NhaXe_LookupListView" Caption="Nhà Xe" />
+    <ListView Id="NhaXe_TaiXes_ListView" Caption="Tài Xế" />
+    <ListView Id="NhaXe_TheXes_ListView" Caption="Thẻ Xe" />
+    <ListView Id="NhaXe_XeCoDinhs_ListView" Caption="Xe Cố Định" />
+    <ListView Id="NhaXe_YeuCaus_ListView" Caption="Yêu Cầu" />
+    <DetailView Id="QuanLyBenXe_DetailView" Caption="Quản Lý Bến Xe" />
+    <ListView Id="QuanLyBenXe_ListView" Caption="Quản Lý Bến Xe" />
+    <ListView Id="QuanLyBenXe_LookupListView" Caption="Quản Lý Bến Xe" />
+    <ListView Id="TaiXe_BangLichTrinhs_ListView" Caption="Bảng Lịch Trình" />
+    <DetailView Id="TaiXe_DetailView" Caption="Tài Xế" />
+    <ListView Id="TaiXe_ListView" Caption="Tài Xế" />
+    <ListView Id="TaiXe_LookupListView" Caption="Tài Xế" />
+    <DetailView Id="TheXe_DetailView" Caption="Thẻ Xe" />
+    <ListView Id="TheXe_ListView" Caption="Thẻ Xe" />
+    <ListView Id="TheXe_LookupListView" Caption="Thẻ Xe" />
+    <ListView Id="XeCoDinh_BangLichTrinhs_ListView" Caption="Bảng Lịch Trình" />
+    <DetailView Id="XeCoDinh_DetailView" Caption="Xe Cố Định" />
+    <ListView Id="XeCoDinh_LichSuRaVaos_ListView" Caption="Lịch Sử Ra Vào" />
+    <ListView Id="XeCoDinh_ListView" Caption="Xe Cố Định" />
+    <ListView Id="XeCoDinh_LookupListView" Caption="Xe Cố Định" />
+    <DetailView Id="YeuCau_DetailView" Caption="Yêu Cầu" />
+    <ListView Id="YeuCau_ListView" Caption="Yêu Cầu" />
+    <ListView Id="YeuCau_LookupListView" Caption="Yêu Cầu" />
+  </Views>
 </Application>

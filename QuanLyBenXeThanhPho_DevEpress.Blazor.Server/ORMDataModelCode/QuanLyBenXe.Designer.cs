@@ -19,6 +19,7 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class QuanLyBenXe : XPObject
     {
         string fTenQuanLy;
+        [DevExpress.Xpo.DisplayName(@"Tên Quản Lý")]
         public string TenQuanLy
         {
             get { return fTenQuanLy; }
@@ -31,12 +32,14 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             set { SetPropertyValue<string>(nameof(Email), ref fEmail, value); }
         }
         string fSoDT;
+        [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT
         {
             get { return fSoDT; }
             set { SetPropertyValue<string>(nameof(SoDT), ref fSoDT, value); }
         }
         string fDiaChi;
+        [DevExpress.Xpo.DisplayName(@"Địa Chỉ")]
         public string DiaChi
         {
             get { return fDiaChi; }

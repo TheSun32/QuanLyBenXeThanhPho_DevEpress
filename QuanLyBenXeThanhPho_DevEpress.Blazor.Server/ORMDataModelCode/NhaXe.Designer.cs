@@ -96,6 +96,8 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
         public XPCollection<TaiXe> TaiXes { get { return GetCollection<TaiXe>(nameof(TaiXes)); } }
         [Association(@"TheXeReferencesNhaXe"), Aggregated]
         public XPCollection<TheXe> TheXes { get { return GetCollection<TheXe>(nameof(TheXes)); } }
+        [Association(@"TaiXeReferencesNhaXe1"), Aggregated]
+        public XPCollection<TaiXe> TaiXes1 { get { return GetCollection<TaiXe>(nameof(TaiXes1)); } }
     }
 
 }

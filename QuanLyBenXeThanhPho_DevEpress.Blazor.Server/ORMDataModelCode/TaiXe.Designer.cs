@@ -88,9 +88,15 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fThoiHanHopDong; }
             set { SetPropertyValue<DateTime>(nameof(ThoiHanHopDong), ref fThoiHanHopDong, value); }
         }
-        NhaXe fIdNhaXe;
+        NhaXe fTenNhaXe;
         [Association(@"TaiXeReferencesNhaXe")]
-        [DevExpress.Xpo.DisplayName(@"Id Nhà Xe")]
+        public NhaXe TenNhaXe
+        {
+            get { return fTenNhaXe; }
+            set { SetPropertyValue<NhaXe>(nameof(TenNhaXe), ref fTenNhaXe, value); }
+        }
+        NhaXe fIdNhaXe;
+        [Association(@"TaiXeReferencesNhaXe1")]
         public NhaXe IdNhaXe
         {
             get { return fIdNhaXe; }

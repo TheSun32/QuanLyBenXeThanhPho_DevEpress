@@ -18,12 +18,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
 
     public partial class XeCoDinh : XPObject
     {
-        string fIdXe;
+        sbyte fIdXe;
         [DevExpress.Xpo.DisplayName(@"Id Xe")]
-        public string IdXe
+        public sbyte IdXe
         {
             get { return fIdXe; }
-            set { SetPropertyValue<string>(nameof(IdXe), ref fIdXe, value); }
+            set { SetPropertyValue<sbyte>(nameof(IdXe), ref fIdXe, value); }
         }
         string fLoaiXe;
         [DevExpress.Xpo.DisplayName(@"Loại Xe")]

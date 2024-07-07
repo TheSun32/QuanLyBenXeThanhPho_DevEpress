@@ -9,9 +9,9 @@ using DevExpress.Persistent.Base;
 namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
 {
     [DefaultClassOptions]
-    public partial class Admin
+    public partial class QuanLyBenXe
     {
-        public Admin(Session session) : base(session) { }
+        public QuanLyBenXe(Session session) : base(session) { }
         public override void AfterConstruction() { base.AfterConstruction(); }
     }
 

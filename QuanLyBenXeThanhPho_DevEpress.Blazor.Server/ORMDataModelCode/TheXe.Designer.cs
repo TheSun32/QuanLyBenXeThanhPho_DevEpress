@@ -49,13 +49,6 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fIdNhaXe; }
             set { SetPropertyValue<NhaXe>(nameof(IdNhaXe), ref fIdNhaXe, value); }
         }
-        Admin fIdAdmin;
-        [Association(@"TheXeReferencesAdmin")]
-        public Admin IdAdmin
-        {
-            get { return fIdAdmin; }
-            set { SetPropertyValue<Admin>(nameof(IdAdmin), ref fIdAdmin, value); }
-        }
     }
 
 }

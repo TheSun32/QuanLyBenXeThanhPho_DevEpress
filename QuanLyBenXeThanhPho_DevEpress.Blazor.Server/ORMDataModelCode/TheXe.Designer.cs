@@ -19,24 +19,28 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class TheXe : XPObject
     {
         string fIdTheXe;
+        [DevExpress.Xpo.DisplayName(@"ID Thẻ Xe")]
         public string IdTheXe
         {
             get { return fIdTheXe; }
             set { SetPropertyValue<string>(nameof(IdTheXe), ref fIdTheXe, value); }
         }
         string fTenXe;
+        [DevExpress.Xpo.DisplayName(@"Tên Xe")]
         public string TenXe
         {
             get { return fTenXe; }
             set { SetPropertyValue<string>(nameof(TenXe), ref fTenXe, value); }
         }
         string fTenNhaXe;
+        [DevExpress.Xpo.DisplayName(@"Tên Nhà Xe")]
         public string TenNhaXe
         {
             get { return fTenNhaXe; }
             set { SetPropertyValue<string>(nameof(TenNhaXe), ref fTenNhaXe, value); }
         }
         string fSoLuot;
+        [DevExpress.Xpo.DisplayName(@"Số lượt")]
         public string SoLuot
         {
             get { return fSoLuot; }

@@ -32,6 +32,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fDoanhThu; }
             set { SetPropertyValue<string>(nameof(DoanhThu), ref fDoanhThu, value); }
         }
+        DateTime fNgayBaoCao;
+        public DateTime NgayBaoCao
+        {
+            get { return fNgayBaoCao; }
+            set { SetPropertyValue<DateTime>(nameof(NgayBaoCao), ref fNgayBaoCao, value); }
+        }
         string fGhiChu;
         [DevExpress.Xpo.DisplayName(@"Ghi Chú")]
         public string GhiChu

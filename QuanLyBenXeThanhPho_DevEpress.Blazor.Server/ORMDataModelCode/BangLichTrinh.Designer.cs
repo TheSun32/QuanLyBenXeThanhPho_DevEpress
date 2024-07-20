@@ -25,12 +25,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fIdLichTrinh; }
             set { SetPropertyValue<string>(nameof(IdLichTrinh), ref fIdLichTrinh, value); }
         }
-        DateTime fGioXuatPhat;
+        string fGioXuatPhat;
         [DevExpress.Xpo.DisplayName(@"Giờ Xuất Phát")]
-        public DateTime GioXuatPhat
+        public string GioXuatPhat
         {
             get { return fGioXuatPhat; }
-            set { SetPropertyValue<DateTime>(nameof(GioXuatPhat), ref fGioXuatPhat, value); }
+            set { SetPropertyValue<string>(nameof(GioXuatPhat), ref fGioXuatPhat, value); }
         }
         string fDiemDen;
         [DevExpress.Xpo.DisplayName(@"Điểm Đến")]

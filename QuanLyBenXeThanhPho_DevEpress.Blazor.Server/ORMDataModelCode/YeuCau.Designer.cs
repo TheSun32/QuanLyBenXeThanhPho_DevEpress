@@ -19,22 +19,32 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
     public partial class YeuCau : XPObject
     {
         string fIdYeuCau;
+        [DevExpress.Xpo.DisplayName(@"ID Yêu Cầu")]
         public string IdYeuCau
         {
             get { return fIdYeuCau; }
             set { SetPropertyValue<string>(nameof(IdYeuCau), ref fIdYeuCau, value); }
         }
         string fLoaiyeuCau;
+        [DevExpress.Xpo.DisplayName(@"Loại Yêu Cầu")]
         public string LoaiyeuCau
         {
             get { return fLoaiyeuCau; }
             set { SetPropertyValue<string>(nameof(LoaiyeuCau), ref fLoaiyeuCau, value); }
         }
         string fNoiDung;
+        [DevExpress.Xpo.DisplayName(@"Nội dung")]
         public string NoiDung
         {
             get { return fNoiDung; }
             set { SetPropertyValue<string>(nameof(NoiDung), ref fNoiDung, value); }
+        }
+        string fNhaXe;
+        [DevExpress.Xpo.DisplayName(@"Nhà Xe")]
+        public string NhaXe
+        {
+            get { return fNhaXe; }
+            set { SetPropertyValue<string>(nameof(NhaXe), ref fNhaXe, value); }
         }
         NhaXe fIdNhaXe;
         [Association(@"YeuCauReferencesNhaXe")]

@@ -39,13 +39,6 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fTaiKhoan; }
             set { SetPropertyValue<string>(nameof(TaiKhoan), ref fTaiKhoan, value); }
         }
-        string fMatKhau;
-        [DevExpress.Xpo.DisplayName(@"Mật Khẩu")]
-        public string MatKhau
-        {
-            get { return fMatKhau; }
-            set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
-        }
         string fSoDT;
         [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT
@@ -88,12 +81,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fThoiHanHopDong; }
             set { SetPropertyValue<DateTime>(nameof(ThoiHanHopDong), ref fThoiHanHopDong, value); }
         }
-        NhaXe fTenNhaXe;
-        [Association(@"TaiXeReferencesNhaXe")]
-        public NhaXe TenNhaXe
+        string fTenNhaXe;
+        [DevExpress.Xpo.DisplayName(@"Nhà Xe")]
+        public string TenNhaXe
         {
             get { return fTenNhaXe; }
-            set { SetPropertyValue<NhaXe>(nameof(TenNhaXe), ref fTenNhaXe, value); }
+            set { SetPropertyValue<string>(nameof(TenNhaXe), ref fTenNhaXe, value); }
         }
         NhaXe fIdNhaXe;
         [Association(@"TaiXeReferencesNhaXe1")]

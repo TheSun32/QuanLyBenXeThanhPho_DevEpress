@@ -18,12 +18,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
 
     public partial class XeCoDinh : XPObject
     {
-        sbyte fIdXe;
+        string fIdXe;
         [DevExpress.Xpo.DisplayName(@"Id Xe")]
-        public sbyte IdXe
+        public string IdXe
         {
             get { return fIdXe; }
-            set { SetPropertyValue<sbyte>(nameof(IdXe), ref fIdXe, value); }
+            set { SetPropertyValue<string>(nameof(IdXe), ref fIdXe, value); }
         }
         string fLoaiXe;
         [DevExpress.Xpo.DisplayName(@"Loại Xe")]
@@ -39,12 +39,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fBienSo; }
             set { SetPropertyValue<string>(nameof(BienSo), ref fBienSo, value); }
         }
-        short fSoChoNgoi;
+        string fSoChoNgoi;
         [DevExpress.Xpo.DisplayName(@"Số Chỗ Ngồi")]
-        public short SoChoNgoi
+        public string SoChoNgoi
         {
             get { return fSoChoNgoi; }
-            set { SetPropertyValue<short>(nameof(SoChoNgoi), ref fSoChoNgoi, value); }
+            set { SetPropertyValue<string>(nameof(SoChoNgoi), ref fSoChoNgoi, value); }
         }
         DateTime fNgayCapThe;
         [DevExpress.Xpo.DisplayName(@"Ngày Cấp Thẻ")]
@@ -53,12 +53,19 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fNgayCapThe; }
             set { SetPropertyValue<DateTime>(nameof(NgayCapThe), ref fNgayCapThe, value); }
         }
-        short fSoLuotConLai;
+        string fNhaXe;
+        [DevExpress.Xpo.DisplayName(@"Nhà Xe")]
+        public string NhaXe
+        {
+            get { return fNhaXe; }
+            set { SetPropertyValue<string>(nameof(NhaXe), ref fNhaXe, value); }
+        }
+        string fSoLuotConLai;
         [DevExpress.Xpo.DisplayName(@"Số Lượt Còn Lại")]
-        public short SoLuotConLai
+        public string SoLuotConLai
         {
             get { return fSoLuotConLai; }
-            set { SetPropertyValue<short>(nameof(SoLuotConLai), ref fSoLuotConLai, value); }
+            set { SetPropertyValue<string>(nameof(SoLuotConLai), ref fSoLuotConLai, value); }
         }
         NhaXe fIdNhaXe;
         [Association(@"XeCoDinhReferencesNhaXe")]

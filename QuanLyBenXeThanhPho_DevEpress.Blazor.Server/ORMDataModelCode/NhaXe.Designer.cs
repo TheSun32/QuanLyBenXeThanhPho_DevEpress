@@ -46,13 +46,6 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fTaiKhoan; }
             set { SetPropertyValue<string>(nameof(TaiKhoan), ref fTaiKhoan, value); }
         }
-        string fMatKhau;
-        [DevExpress.Xpo.DisplayName(@"Mật Khẩu")]
-        public string MatKhau
-        {
-            get { return fMatKhau; }
-            set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
-        }
         string fSoDT;
         [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT
@@ -88,14 +81,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fSoDTDatXe; }
             set { SetPropertyValue<string>(nameof(SoDTDatXe), ref fSoDTDatXe, value); }
         }
-        [Association(@"YeuCauReferencesNhaXe"), Aggregated]
-        public XPCollection<YeuCau> YeuCaus { get { return GetCollection<YeuCau>(nameof(YeuCaus)); } }
         [Association(@"XeCoDinhReferencesNhaXe"), Aggregated]
         public XPCollection<XeCoDinh> XeCoDinhs { get { return GetCollection<XeCoDinh>(nameof(XeCoDinhs)); } }
-        [Association(@"TaiXeReferencesNhaXe"), Aggregated]
-        public XPCollection<TaiXe> TaiXes { get { return GetCollection<TaiXe>(nameof(TaiXes)); } }
         [Association(@"TheXeReferencesNhaXe"), Aggregated]
         public XPCollection<TheXe> TheXes { get { return GetCollection<TheXe>(nameof(TheXes)); } }
+        [Association(@"YeuCauReferencesNhaXe"), Aggregated]
+        public XPCollection<YeuCau> YeuCaus { get { return GetCollection<YeuCau>(nameof(YeuCaus)); } }
         [Association(@"TaiXeReferencesNhaXe1"), Aggregated]
         public XPCollection<TaiXe> TaiXes1 { get { return GetCollection<TaiXe>(nameof(TaiXes1)); } }
     }

@@ -39,13 +39,6 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fTaiKhoan; }
             set { SetPropertyValue<string>(nameof(TaiKhoan), ref fTaiKhoan, value); }
         }
-        string fMatKhau;
-        [DevExpress.Xpo.DisplayName(@"Mật Khẩu")]
-        public string MatKhau
-        {
-            get { return fMatKhau; }
-            set { SetPropertyValue<string>(nameof(MatKhau), ref fMatKhau, value); }
-        }
         string fSoDT;
         [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
         public string SoDT

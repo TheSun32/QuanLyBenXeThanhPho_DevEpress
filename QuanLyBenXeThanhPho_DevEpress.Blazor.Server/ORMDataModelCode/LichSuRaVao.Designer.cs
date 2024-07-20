@@ -25,19 +25,19 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fIdLichSu; }
             set { SetPropertyValue<string>(nameof(IdLichSu), ref fIdLichSu, value); }
         }
-        DateTime fThoiGianVao;
+        string fThoiGianVao;
         [DevExpress.Xpo.DisplayName(@"Thời Gian Vào")]
-        public DateTime ThoiGianVao
+        public string ThoiGianVao
         {
             get { return fThoiGianVao; }
-            set { SetPropertyValue<DateTime>(nameof(ThoiGianVao), ref fThoiGianVao, value); }
+            set { SetPropertyValue<string>(nameof(ThoiGianVao), ref fThoiGianVao, value); }
         }
-        DateTime fThoiGianRa;
+        string fThoiGianRa;
         [DevExpress.Xpo.DisplayName(@"Thời Gian Ra")]
-        public DateTime ThoiGianRa
+        public string ThoiGianRa
         {
             get { return fThoiGianRa; }
-            set { SetPropertyValue<DateTime>(nameof(ThoiGianRa), ref fThoiGianRa, value); }
+            set { SetPropertyValue<string>(nameof(ThoiGianRa), ref fThoiGianRa, value); }
         }
         string fBienSo;
         [DevExpress.Xpo.DisplayName(@"Biển Số")]

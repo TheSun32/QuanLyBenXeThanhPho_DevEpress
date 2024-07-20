@@ -81,12 +81,12 @@ namespace QuanLyBenXeThanhPho_DevEpress.Blazor.Server.ORMDataModel
             get { return fThoiHanHopDong; }
             set { SetPropertyValue<DateTime>(nameof(ThoiHanHopDong), ref fThoiHanHopDong, value); }
         }
-        string fTenNhaXe;
+        string fNhaXe;
         [DevExpress.Xpo.DisplayName(@"Nhà Xe")]
-        public string TenNhaXe
+        public string NhaXe
         {
-            get { return fTenNhaXe; }
-            set { SetPropertyValue<string>(nameof(TenNhaXe), ref fTenNhaXe, value); }
+            get { return fNhaXe; }
+            set { SetPropertyValue<string>(nameof(NhaXe), ref fNhaXe, value); }
         }
         NhaXe fIdNhaXe;
         [Association(@"TaiXeReferencesNhaXe1")]
